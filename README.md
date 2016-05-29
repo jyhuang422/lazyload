@@ -24,14 +24,17 @@ var lazyload = $(window).imgLazyLoad(params);
 
 ### dataAttr
 * default: 'data-src'
+
 元素属性です、そこで画像のリンクを設定します
 
 ### node
 * default: 'img'
+
 遅延ロードの画像元素のセレクタ
 
 ### excludeClass
 * default: 'loaded'
+
 画像レンダリング後、元素につけるclass
 
 ## methods
